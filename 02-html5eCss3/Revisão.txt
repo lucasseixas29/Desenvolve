@@ -1,0 +1,35 @@
+1.
+Listas não ordenadas -  ul 
+Listas Ordenadas - ol
+Listas - li
+Header - Cabeçalho 
+
+2.
+Criando novas páginas
+tag <a> para poder criar links para outras páginas
+Text-transform - Para poder transformar o texto no CSS - (Uppercase - tudo maiúsculo)
+Font-weight - Para mudar a expressura da fonte (negrito, etc.)
+Text-decoration  - Para remover sublinhado do texto ou adicionar
+
+3.
+Reset.css - para poder limpar tudo que o navegador cria (estilos)
+Posicionamento relative - O elemento pode ser deslocado do seu ponto inicial fixo.
+Posicionamento absolute - Conseguimos posicionar o elemento em qualquer lugar da página.
+Para alinhar uma div ao centro é melhor usar a margin automático
+
+4.
+Tag <main> - É uma tag semântica para deixar o código mais legível tanto para os dev quanto para os navegadores.
+Display : inline-block  - pode ser regulável tanto a altura quanto a largura
+
+5.
+border : width style color = 3px solid #000000 ( colocar uma borda de 3px sólida de cor preta)
+border radiu - para arredondar os cantos da borda
+
+6.
+Hover - Serve para alterar elementos quando o mouse fica em cima, tipo mudar a cor, sublinhar, etc.
+Active - Serve para alterar elementos quando clica no mouse.
+
+7. 
+a tag <footer> para ser usada no rodapé
+Podemos usar uma imagem de fundo através do CSS com a propriedade url("img.jpg")
+Podemos usar "unicode" em nossos textos tipo o C comercial &copy; .
