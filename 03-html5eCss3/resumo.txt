@@ -1,0 +1,36 @@
+1.
+
+
+2.
+A tag <form> dentro da tag <main> para criar um formulário
+A tag <label> é uma etiqueta para a entrada de dados, para o <input>.
+<label> com for="algo" e <input> com id = "algo"
+<input> para abrir um espaço para o usuário inserir as informações
+label possui o display inline e o input possui display inline-block
+
+3.
+<textarea> Uma tag para inserir conteúdo, para o usuário poder escrever algo.
+Input do tipo radio, Input do tipo checkbox
+para fazer parte do msm grupo usa a propriedade "name" no label possui o display inline e o input possui display inline-block<input>
+Hierarquia CSS - Inline>ID> class+tag > class> tag+tag> tag
+<select> tem dentro dele <option> por exemplo <option>Manhã</option>  <option>Tarde</option>
+
+4.
+tipo "required" para exigir que preencha o campo de input
+placeholder,  checked
+para melhorar a semântica podemos usar as tags: <fieldset> é usada para criar uma divisão no nosso formulário, com um ou mais <input>.
+a tag <legend> que usamos para um título de um grupo de campos em qualquer formulário.
+
+5.
+cursor: pointer;
+Transition (1s background/all)
+transform: scale(1.2) / rotate(70deg)
+
+6.
+A tag <table>, que representa a tabela
+A tag <tr>, que representa a linha da tabela
+A tag <td>, que representa a célula da tabela
+A tag <thead>, que representa o cabeçalho da tabela
+A tag <tbody>, que representa o corpo da tabela
+A tag <th>, que representa a célula do cabeçalho da tabela
+A tag <tfoot>, que representa o rodapé da tabela
