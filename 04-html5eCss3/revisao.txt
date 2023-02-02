@@ -1,0 +1,32 @@
+curso 4.
+
+
+1.
+ medidas proporcionas ( EM, REM, PX )
+ propriedade float
+ como limpar o float, com a propriedade clear do css
+
+2.
+ fontes externas
+ como incorporar um mapa ( iframe )
+ incorporar um vídeo  ( iframe )
+
+3.
+ Pseudo-classes ( nth-child )
+ background: linear-gradient(45deg, orange, blue)
+ pseudo-elementos ( before, after )
+
+4.
+ seletores avançados main > p filho
+ img + p primeiro irmão
+ img ~ p todos os irmãos
+ main p:not(#missao) exceto o que tem o ID
+ contas com css usando calc()
+
+5.
+ opacity: 0.3 ( opacidade do elemento )
+ box-shadow: 10px 10px 10px 10px #000000 ( eixo X, eixo Y,blur( fica mais claro ), intensidade da borda, cor )
+ sombras internas usamos : box-shadow: inset 0 0 5px black; ( As sombras internas os valores x e y devem ser 0 )
+6.
+ <meta name = "viewport" content="width=device-width">
+ @media screen and (max-width: 480px) "a largura máxima"
