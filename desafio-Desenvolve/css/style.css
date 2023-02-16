@@ -27,6 +27,7 @@ main img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 .conteudo-principal h1 {
     width: 360px;
@@ -48,17 +49,21 @@ main img {
     font-weight: 500;
 }
 .conteudo-secundario {
-background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: auto;
+
 }
 .conteudo-texto {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 40px;
-    height: 250px;
+    height: auto;
 }
 .conteudo-texto p {
-    width: 50%;
+    width: 600px;
     padding: 10px 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -69,12 +74,9 @@ background-color: #fff;
     font-weight: 600;
 }
 .botao-secundario {
-    display: flex;
-    justify-content: center;
-    width: 50%;
+    width: 600px;
 }
 .botao-secundario button {
-    margin-left: 145px;
     width: 145px;
     height: 44px;
     background-color: #000;
@@ -87,17 +89,15 @@ background-color: #fff;
     font-weight: 500;
 }
 footer {
+    display: flex;
+    justify-content: center;
     background-color: #000;
-    padding: 24px 80px;
+    padding: 20px 0;
 }
 .footer-conteudo {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 50%;
-}
-.footer-conteudo--info {
-    padding-left: 165px;
+    width: 600px;
 }
 .footer-conteudo--info p {
     padding: 8px 0;
@@ -116,10 +116,10 @@ footer div a {
 .footer-img img {
     padding: 0 5px;
 }
-@media (max-width: 610px) {
+@media (max-width: 768px) {
 
     body {
-        width: auto;
+        width: 100vw;
         height: 860px;
     }
 
@@ -133,13 +133,11 @@ main img {
     height: 187px;
 }
 .conteudo-texto p {
-    width: 450px;
     font-size: 16px;
 }
 
 .conteudo-secundario {
     width: 100%;
-    height: 390px;
 }
 .botao-secundario button {
     margin-top: 50px;
@@ -160,4 +158,10 @@ footer {
     font-size: 10px;
 }
 
+}
+
+@media (min-width: 320px) {
+    .container,.conteudo-principal h1, .conteudo-texto p, .botao-secundario, .footer-conteudo{
+        width: 80vw;
+    }
 }
