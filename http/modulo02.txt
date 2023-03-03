@@ -1,0 +1,6 @@
+Quando usamos HTTP, os dados são enviados em texto puro. O que pode ser perigoso, já que assim deixamos os dados abertos para intermediários.
+HTTPS é mais seguro, mandando dados criptografados para o servidor.
+certificado digital só  é utilizado quando usa o "HTTPS"
+Apenas com HTTPS a Web é segura
+O protocolo HTTPS nada mais é do que o protocolo HTTP mais uma camada adicional de segurança, a TLS/SSL
+O navegador utiliza a chave pública para criptografar os dados

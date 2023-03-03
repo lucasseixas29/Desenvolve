@@ -1,0 +1,6 @@
+cliente - servidor 
+http é um protocolo que define as regras de comunicação entre cliente e servidor na internet.
+http é o protocolo mais importante da internet.
+http = HyperText Transfer Protocol
+http é um protocolo
+Cliente( navegador )  -- Servidor ()
