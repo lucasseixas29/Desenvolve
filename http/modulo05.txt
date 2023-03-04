@@ -1,0 +1,10 @@
+status code
+200 - ok
+301 - moved permanently
+404 - not found
+500 - internal server error
+
+2xx - successful response
+3xx - redirection messages
+4xx - clieint error responses
+5xx - server error responses
