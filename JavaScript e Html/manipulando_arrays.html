@@ -1,0 +1,61 @@
+<meta charset="UTF-8">
+<input type="text">
+<button>Enviar</button>
+<script>
+
+    function sorteia() {
+        return Math.round(Math.random() * 10);
+    }
+
+    function sorteiaNumeros(quantidade) {
+
+        var segredos = [];
+        var numero = 1;
+
+        while(numero<= quantidade) {
+            var numeroAleatorio = sorteia();
+            if(numeroAleatorio !== 0) {
+            var achou = false;
+            for(var i = 0; i < segredos.length; i++) {
+                if(segredos[i] == numeroAleatorio) {
+                achou = true;
+                break;
+                }
+            }
+            if(achou == false) {
+                segredos.push(numeroAleatorio);
+                numero++;
+            }
+        }
+    }
+        return segredos;
+    }
+var vezes = parseInt(prompt("Digite a quantidade de números para adivinhar: "));
+var segredos = sorteiaNumeros(vezes);
+
+console.log(segredos);
+
+var input = document.querySelector("input");
+input.focus();
+
+const enviar = ()=> {
+    var achou = false;
+    for(let posicao = 0; posicao<=segredos.length; posicao++) {
+
+        if(segredos[posicao] == input.value) {
+                alert("Você acertou!");
+                achou = true;
+                break;
+            } 
+           
+            }
+            if(achou == false) {
+            alert("Você errou!")
+            }
+            input.value = "";
+            input.focus();
+}
+var button = document.querySelector("button");
+button.addEventListener("click", enviar);
+
+</script>

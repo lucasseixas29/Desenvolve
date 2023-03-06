@@ -1,0 +1,68 @@
+<meta charset="UTF-8">
+<input type="text">
+<button>Enviar</button>
+
+
+<script>
+    var input = document.querySelector("input");
+    input.focus();
+    
+    function sorteia() {
+        return Math.round(Math.random() * 10);
+    }
+    function sorteiaNumeros(quantidade) {
+        var segredos = [];
+        var numero = 1;
+      
+        while(numero <= quantidade) {
+        var numeroAleatorio = sorteia();
+        if(numeroAleatorio !== 0) {
+            var achou = false;
+            for(let j = 0; j < segredos.length; j++) {
+                if(segredos[j] == numeroAleatorio) {
+                    achou = true;
+                    break;
+                }
+            }
+                if(achou == false) {
+                    segredos.push(numeroAleatorio);
+                    numero++
+                }
+        }
+        }
+        return segredos;
+    }
+    var vezes = parseInt(prompt("Digite a quantidade de numeros: "));
+
+    var segredos = sorteiaNumeros(vezes);
+    
+    console.log(segredos);
+
+  
+
+    const verifica = ()=> {
+        var achou = false;
+        for(let posicao = 0; posicao <= segredos.length; posicao++) {
+            if(input.value == segredos[posicao]) {
+            alert("VOCÊ ACERTOU")
+            achou = true;
+            break;
+            } 
+        }
+        if(achou == false) {
+           
+            alert("VOCÊ ERROU");
+        }
+        input.value = ""; 
+        input.focus();
+    }
+    
+       
+       
+    
+   
+
+    var button = document.querySelector("button");
+    button.addEventListener("click", verifica);
+
+</script>

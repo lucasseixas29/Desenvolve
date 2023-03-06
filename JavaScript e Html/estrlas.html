@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+
+<script>
+const pulaLinha = () => {
+    document.write("<br>")
+}
+const mostra = (frase) => {
+    document.write(frase)
+    pulaLinha();
+}
+for(let linha = 1; linha<=3; linha++) {
+    for(let coluna = 1; coluna<=10; coluna++) {
+        document.write("*");
+    }
+    pulaLinha();
+}
+</script>

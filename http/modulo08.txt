@@ -1,0 +1,6 @@
+http2 já atua sobre o que já se conhece de http
+Headers são binários e comprimidos em HPACK
+GZIP padrão na resposta
+Multiplexing(requisição e respostas são paralelas)
+Headers stateful(Mandamos apenas os cabeçalhos que mudam)
+Serve-Push (faz o servidor enviar os dados sem que o browser tenha pedido)

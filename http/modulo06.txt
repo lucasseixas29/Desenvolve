@@ -1,0 +1,6 @@
+Quando enviamos parâmetros na URL, devemos iniciar pelo ?, o nome do parâmetro e um =, para separar o nome do parâmetro do seu valor:
+?nome_do_parametro=seu_valor&nome_do_outro_param=valor
+GET foi criado para receber dados (params na URL)
+POST foi criado para adicionar algo no servidor (params no corpo da requisição)
+DELETE remover um recurso
+PUT atualizar um recurso

@@ -1,0 +1,5 @@
+De que forma podemos especificar o formato que esperamos que seja devolvido?
+A resposta correta é usando o cabeçalho Accept.
+
+Rest une o URI + METHOD
+REST - Recurso (URI), Operações(GET/POST/PUT/DELETE), Representação(JSON/XML/HTML)

@@ -1,0 +1,4 @@
+Logo após a variável INPUT, pode colocar a função focus(); para poder focar inicialmente na caixa de input para digitar;
+
+input.value ""; para limpar a caixa do input;
+input.focus(); para voltar ao foco da caixa e digitar novamente;
