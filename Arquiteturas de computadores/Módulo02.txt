@@ -1,0 +1,5 @@
+UC - Unidade de controle - recebe as instruções;
+UlLA - Unidade lógico aritmética - faz operações lógicas;
+REGISTRADORES - guarda coisas como a instrução atual, posição da instrução atual, valores intermediários;
+busca, defodifica e executa;
+o clock determina a velocidade que uma instrução vai ser executada;
