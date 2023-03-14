@@ -1,0 +1,4 @@
+As diversas otimizações feitas no processadores modernos, como pipelining e multi-core;
+Como podemos nos comunicar com o computador por meio dos dispositivos de entrada e saída;
+Como monitores e teclados funcionam;
+Como o computador executa vários programas ao mesmo tempo por meio de multitasking.

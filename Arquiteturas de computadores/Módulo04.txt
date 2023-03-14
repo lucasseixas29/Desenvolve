@@ -1,0 +1,4 @@
+A função da memória cache para melhorar a performance do computador;
+Como as memórias de um computador são divididas de forma hierárquica;
+O que é o princípio da localidade;
+Qual a diferença entre processadores 32 e 64 bits, e qual é o impacto disso na hora de escolher o instalador de um programa.
