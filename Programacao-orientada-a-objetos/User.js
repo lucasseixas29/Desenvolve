@@ -6,8 +6,12 @@ export default class User{
         this.role = role || 'estudante';
         this.ativo = ativo;
     }
-    exibirInfos() {
-        return `${this.nome}, ${this.email}`
+    exibirInfos(nome, email) {
+        return `${nome}, ${email}`
     }
 }
+
+const novoUser = new User();
+/*console.log(novoUser)
+console.log(novoUser.exibirInfos("Lucas", "email@email.com"))*/
 
