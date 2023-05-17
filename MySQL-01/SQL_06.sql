@@ -1,9 +1,7 @@
-USE sucos;
+SELECT * FROM tbproduto WHERE PRODUTO = '544931';
 
-UPDATE tbproduto SET EMBALAGEM = 'Lata', PRECO_LISTA = 2.46
-WHERE PRODUTO = '544931';
+SELECT * FROM tbcliente WHERE CIDADE = 'Rio De Janeiro';
 
-UPDATE tbproduto SET EMBALAGEM = 'Garrafa'
-WHERE PRODUTO = '1078680';
+SELECT * FROM tbproduto WHERE SABOR = 'Cítricos';
 
-SELECT * FROM tbproduto;
+UPDATE tbproduto SET SABOR = 'Cítricos' WHERE SABOR = 'Limão';

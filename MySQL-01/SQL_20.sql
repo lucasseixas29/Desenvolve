@@ -1,0 +1,52 @@
+USE sucos;
+
+CREATE TABLE tabela_de_vendedores(
+MATRICULA VARCHAR(10),
+NOME VARCHAR(50),
+PERCENTUAL_COMISSAO FLOAT,
+DATA_ADIMISSAO DATE,
+DE_FERIAS VARCHAR(5));
+
+ALTER TABLE tabela_de_vendedores ADD PRIMARY KEY (MATRICULA);
+
+
+INSERT INTO tabela_de_vendedores (
+MATRICULA,
+NOME,
+PERCENTUAL_COMISSAO,
+DATA_ADIMISSAO,
+DE_FERIAS) VALUES(
+'00235', 'Márcio Almeida Silva', 0.08, '2014-08-15', 'Não'
+);
+INSERT INTO tabela_de_vendedores (
+MATRICULA,
+NOME,
+PERCENTUAL_COMISSAO,
+DATA_ADIMISSAO,
+DE_FERIAS) VALUES(
+'00236', 'Cláudia Morais', 0.08, '2013-09-17', 'Sim'
+);
+INSERT INTO tabela_de_vendedores (
+MATRICULA,
+NOME,
+PERCENTUAL_COMISSAO,
+DATA_ADIMISSAO,
+DE_FERIAS) VALUES(
+'00237', 'Roberta Martins', 0.11, '2017-03-18', 'Sim'
+);
+INSERT INTO tabela_de_vendedores (
+MATRICULA,
+NOME,
+PERCENTUAL_COMISSAO,
+DATA_ADIMISSAO,
+DE_FERIAS) VALUES(
+'00238', 'Péricles Alves', 0.11, '2016-08-21', 'Não'
+);
+
+SELECT * FROM tabela_de_vendedores WHERE NOME = 'Claudia Morais';
+
+SELECT * FROM tabela_de_vendedores WHERE PERCENTUAL_COMISSAO > 0.10;
+
+SELECT * FROM tabela_de_vendedores WHERE YEAR(DATA_ADIMISSAO) >= 2016;
+
+SELECT * FROM tabela_de_vendedores WHERE DE_FERIAS = 'Sim' AND YEAR(DATA_ADIMISSAO) < 2016;
